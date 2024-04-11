@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="Images/images.jpg" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Utlizador</b></label>
+          <input type="text" placeholder="Nome do utilizador" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Digite sua password" name="psw" required>
+      
+          <button type="submit"><a href="menu.html">Login</a></button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Salvar palavra-passe
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn"><a href="index.html">Voltar ao menu</a></button>
+        </div>
+      </form>
+   
+
+<script>
+
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
