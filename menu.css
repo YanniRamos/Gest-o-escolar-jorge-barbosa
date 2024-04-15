@@ -1,4 +1,4 @@
-* {
+  * {
     box-sizing: border-box;
   }
   
@@ -116,4 +116,12 @@
     width: 100%;
     min-height: 200vh;
     object-fit: cover;
+  }
+
+  
+  ul li {
+    display: inline;  
+  }
+  div > span {
+    display: block;  
   }
