@@ -1,0 +1,78 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Gestão Escolar - Turmas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Turmas</h1>
+<table>
+<tr>
+<th>Código da Turma</th>
+<th>Disciplina</th>
+<th>Professor</th>
+<th>Horário</th>
+</tr>
+<tr>
+<td>001</td>
+<td>Matemática</td>
+<td>Prof. Silva</td>
+<td>Segunda e Quarta, 8h-10h</td>
+</tr>
+<tr>
+<td>002</td>
+<td>Português</td>
+<td>Prof. Santos</td>
+<td>Terça e Quinta, 10h-12h</td>
+</tr>
+</table>
+</body>
+</html>
+
+css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
